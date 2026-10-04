@@ -1,0 +1,11 @@
+{
+  "name": "ai8458-playground",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node --check app.js && node --check scripts/build.mjs && node scripts/build.mjs --check",
+    "start": "node server.mjs"
+  }
+}

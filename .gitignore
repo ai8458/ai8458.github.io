@@ -1,0 +1,4 @@
+.deploy/
+artifacts/
+node_modules/
+*.log
