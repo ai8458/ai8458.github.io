@@ -1,57 +1,94 @@
 {
   "categories": [
-    {"id": "play", "label": "游戏与挑战"},
-    {"id": "create", "label": "创作与放松"},
-    {"id": "explore", "label": "探索与学习"}
+    {
+      "id": "play",
+      "label": "游戏"
+    },
+    {
+      "id": "create",
+      "label": "创作"
+    },
+    {
+      "id": "explore",
+      "label": "学习"
+    },
+    {
+      "id": "source",
+      "label": "源码"
+    }
   ],
   "apps": [
     {
-      "id": "skyline-sprint", "name": "云际疾驰", "english": "SKYLINE SPRINT", "category": "play",
-      "description": "跃过障碍，冲向天际。在霓虹赛道上，刷新属于你的最远纪录。",
-      "detail": "3D 跑酷 · 键盘 / 触屏", "action": "开始疾驰", "badge": "新上线",
-      "keywords": "游戏 跑步 跑酷 换道 跳跃 滑行 手机 电脑", "image": "assets/skyline-sprint.webp",
-      "imageAlt": "云际疾驰中的悬空赛道、霓虹城市与跑酷角色",
-      "url": "https://ai8458.github.io/skyline-sprint/", "source": "https://github.com/ai8458/skyline-sprint"
+      "id": "skyline-sprint",
+      "name": "云际疾驰",
+      "english": "Skyline Sprint",
+      "category": "play",
+      "description": "3D 跑酷：换道、跳跃、躲避障碍。",
+      "keywords": "跑步 游戏 键盘 触屏 手机 电脑",
+      "url": "https://ai8458.github.io/skyline-sprint/"
     },
     {
-      "id": "fluffy-dream-studio", "name": "绒绒造梦屋", "english": "FLUFFY DREAM STUDIO", "category": "create",
-      "description": "捏一张可爱的脸，搭一身喜欢的衣服。把想象变成你的专属小伙伴。",
-      "detail": "3D 捏脸换装 · 可导出照片", "action": "开始创造", "badge": "",
-      "keywords": "娃娃 换装 捏脸 儿童 小朋友 创作 拍照 服装 手机", "image": "assets/fluffy-dream-studio.webp",
-      "imageAlt": "绒绒造梦屋里的粉色软陶风格立体娃娃",
-      "url": "https://ai8458.github.io/fluffy-dream-studio/", "source": "https://github.com/ai8458/fluffy-dream-studio"
+      "id": "iron-dune",
+      "name": "铁砂行动",
+      "english": "Iron Dune",
+      "category": "play",
+      "description": "第一人称坦克驾驶与战斗。",
+      "keywords": "沙漠 射击 游戏 键盘 触屏 手机 电脑",
+      "url": "https://ai8458.github.io/iron-dune/"
     },
     {
-      "id": "cube-studio", "name": "魔方实验室", "english": "CUBE STUDIO", "category": "explore",
-      "description": "转动、打乱，再一步步还原。在指尖探索三阶魔方的秩序与变化。",
-      "detail": "三阶魔方 · 支持自动还原", "action": "转动魔方", "badge": "",
-      "keywords": "魔方 益智 解谜 学习 三维 解法 自动还原 3D", "image": "assets/cube-studio.webp",
-      "imageAlt": "魔方实验室中带圆角色块的真实三维魔方",
-      "url": "https://ai8458.github.io/cube-studio/", "source": "https://github.com/ai8458/cube-studio"
+      "id": "fluffy-dream-studio",
+      "name": "绒绒造梦屋",
+      "english": "Fluffy Dream Studio",
+      "category": "create",
+      "description": "3D 捏脸换装，支持导出照片。",
+      "keywords": "娃娃 儿童 小朋友 服装 拍照 手机",
+      "url": "https://ai8458.github.io/fluffy-dream-studio/"
     },
     {
-      "id": "iron-dune", "name": "铁砂行动", "english": "IRON DUNE", "category": "play",
-      "description": "驾驶战车穿越沙丘，瞄准、开火。迎战三波敌军，守住沙漠前哨。",
-      "detail": "第一人称坦克 · 键盘 / 触屏", "action": "进入战场", "badge": "",
-      "keywords": "坦克 战斗 射击 沙漠 驾驶 游戏 雷达 手机 电脑", "image": "assets/iron-dune.webp",
-      "imageAlt": "铁砂行动中从坦克驾驶位望向沙漠战场的画面",
-      "url": "https://ai8458.github.io/iron-dune/", "source": "https://github.com/ai8458/iron-dune"
+      "id": "ai-painted-coast",
+      "name": "金色海湾",
+      "english": "A Painted Coast",
+      "category": "create",
+      "description": "海湾油画动画，配有钢琴与海浪声。",
+      "keywords": "海浪 风景 音乐 动态 油画 放松 白噪音",
+      "url": "https://ai8458.github.io/ai-painted-coast/"
     },
     {
-      "id": "ai-painted-coast", "name": "金色海湾", "english": "A PAINTED COAST", "category": "create",
-      "description": "看海浪漫过沙滩，听钢琴与潮声。给忙碌的一天，留一小段慢时光。",
-      "detail": "动态油画 · 原创程序配乐", "action": "去海边坐坐", "badge": "",
-      "keywords": "海浪 海湾 风景 音乐 油画 动画 放松 钢琴 白噪音", "image": "assets/ai-painted-coast.webp",
-      "imageAlt": "夕阳下蓝绿色的海湾、弯曲沙滩与前景松树油画",
-      "url": "https://ai8458.github.io/ai-painted-coast/", "source": "https://github.com/ai8458/ai-painted-coast"
+      "id": "cube-studio",
+      "name": "魔方实验室",
+      "english": "Cube Studio",
+      "category": "explore",
+      "description": "交互式三阶魔方，支持自动还原。",
+      "keywords": "益智 解谜 三维 解法 3D",
+      "url": "https://ai8458.github.io/cube-studio/"
     },
     {
-      "id": "xiaobutou-story-map", "name": "小布头奇遇记", "english": "A LITTLE STORY MAP", "category": "explore",
-      "description": "沿着手绘地图，重走小布头的冒险。读故事，也画下自己的发现。",
-      "detail": "故事场景地图 · 可打印 A4 PDF", "action": "展开故事地图", "badge": "",
-      "keywords": "阅读 地图 小布头奇遇记 手绘 故事 打印 PDF 四年级 儿童 学习", "image": "assets/xiaobutou-story-map.webp",
-      "imageAlt": "小布头奇遇记的八个故事场景与手绘冒险路线",
-      "url": "https://ai8458.github.io/xiaobutou-story-map/", "source": "https://github.com/ai8458/xiaobutou-story-map"
+      "id": "xiaobutou-story-map",
+      "name": "小布头奇遇记",
+      "english": "Xiaobutou Story Map",
+      "category": "explore",
+      "description": "手绘故事地图，可下载 A4 打印 PDF。",
+      "keywords": "阅读 小布头奇遇记 地图 故事 打印 四年级 儿童",
+      "url": "https://ai8458.github.io/xiaobutou-story-map/"
+    },
+    {
+      "id": "etf-research-agent",
+      "name": "ETF Research Agent",
+      "english": "ETF Research Agent",
+      "category": "source",
+      "description": "ETF 数据与组合回测研究。",
+      "keywords": "基金 投资 数据 回测 研究 源码",
+      "url": "https://github.com/ai8458/etf-research-agent"
+    },
+    {
+      "id": "word-by-word",
+      "name": "Word by Word",
+      "english": "Word by Word",
+      "category": "source",
+      "description": "GitHub 源码仓库。",
+      "keywords": "word-by-word 源码",
+      "url": "https://github.com/ai8458/word-by-word"
     }
   ]
 }

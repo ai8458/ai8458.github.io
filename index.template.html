@@ -3,70 +3,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f8f8f2">
-  <title>灵感游乐场 · AI8458 的应用导览</title>
-  <meta name="description" content="给好奇心，一个去处。探索 AI8458 的小游戏、创作工具与互动作品：云际疾驰、绒绒造梦屋、魔方实验室、铁砂行动、金色海湾和小布头故事地图。">
-  <meta property="og:title" content="灵感游乐场 · 好玩的，都在这里">
-  <meta property="og:description" content="小游戏、创作与探索。挑一个喜欢的小世界，打开就能体验。">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://ai8458.github.io/">
+  <meta name="theme-color" content="#ffffff">
+  <title>应用目录 · AI8458</title>
+  <meta name="description" content="AI8458 的应用与项目入口：跑酷、换装、魔方、坦克游戏、海湾动画、故事地图及源码项目。">
   <link rel="canonical" href="https://ai8458.github.io/">
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./style.css">
-  <script defer src="./app.js"></script>
+  <link rel="stylesheet" href="./style.css?v=2">
+  <script defer src="./app.js?v=2"></script>
 </head>
-<body id="top">
-  <a class="skip-link" href="#apps">跳到应用列表</a>
-  <header class="site-header wrap">
-    <a class="brand" href="./" aria-label="灵感游乐场首页"><img src="./assets/favicon.svg" width="41" height="41" alt=""><span>灵感游乐场<small>AI8458'S PLAYGROUND</small></span></a>
-    <nav class="main-nav" aria-label="主导航"><a class="current" href="#apps">全部应用<span></span></a><a href="#projects">更多项目</a><a href="#about">关于这里</a></nav>
-    <a class="github-button" href="https://github.com/ai8458" target="_blank" rel="noopener noreferrer"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9 19c-4.3 1.3-4.3-2.2-6-2.7m12 5v-3.4c0-1 .1-1.5-.5-2.1 3.1-.3 6.5-1.5 6.5-7A5.5 5.5 0 0 0 19.5 5 5 5 0 0 0 19.4 1S18.2.6 15 2.5a14.5 14.5 0 0 0-6 0C5.8.6 4.6 1 4.6 1a5 5 0 0 0-.1 4A5.5 5.5 0 0 0 3 8.8c0 5.5 3.4 6.7 6.5 7C9 16.4 9 17 9 18v3.3"/></svg><span>GitHub</span><span aria-hidden="true">↗</span></a>
-  </header>
-
-  <main>
-    <section class="hero wrap" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <div class="eyebrow"><span class="spark">✳</span> SMALL IDEAS, PLAYFUL POSSIBILITIES</div>
-        <h1 id="hero-title">给好奇心，<br>一个<span class="highlight">去处<svg aria-hidden="true" viewBox="0 0 180 18"><path d="M3 12Q90-1 177 8M20 16Q96 6 155 13"/></svg></span><span class="orange-dot">。</span></h1>
-        <p>玩一局游戏，创造一个小伙伴，或只是看看海。<br class="desktop-break">这里收集了一些小小的想法，和把它们做出来的快乐。</p>
-        <div class="hero-actions"><a class="button button-primary" href="#apps">探索全部应用 <span aria-hidden="true">↓</span></a><button class="button button-secondary" id="random-app" type="button" data-interactive hidden><svg aria-hidden="true" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4" transform="rotate(-10 12 12)"/><circle cx="8.2" cy="8.2" r=".8"/><circle cx="15.8" cy="8.2" r=".8"/><circle cx="12" cy="12" r=".8"/><circle cx="8.2" cy="15.8" r=".8"/><circle cx="15.8" cy="15.8" r=".8"/></svg>随便逛一个</button></div>
-        <div class="hero-note"><span class="tiny-avatars" aria-hidden="true"><i>✦</i><i>◒</i><i>↗</i></span><span><strong>{{APP_COUNT}} 个小世界</strong>，打开即体验</span><span class="note-dot">·</span><span>持续生长中</span></div>
+<body>
+  <main class="directory">
+    <header><div><h1>应用目录</h1><p>AI8458 的应用与项目</p></div><a class="github-link" href="https://github.com/ai8458">GitHub ↗</a></header>
+    <div class="tools" data-interactive hidden>
+      <div class="search-box">
+        <label class="sr-only" for="search">搜索名称或功能</label>
+        <input id="search" type="search" placeholder="搜索名称或功能" autocomplete="off">
+        <button id="clear-search" type="button" aria-label="清空搜索" hidden>×</button>
       </div>
-      <div class="hero-art" aria-hidden="true">
-        <div class="art-grid"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-        <div class="art-star star-one">✳</div><div class="art-star star-two">✦</div>
-        <div class="float-card race-mini"><img src="./assets/skyline-sprint.webp" alt="" width="800" height="500"><span>向天空，再近一点 <i>↗</i></span></div>
-        <div class="float-card cube-mini"><span class="mini-label">TURN AN IDEA INTO PLAY</span><img src="./assets/cube-studio.webp" alt="" width="800" height="500"><span class="cube-caption">转动一下，换个视角 <i>↻</i></span></div>
-        <div class="float-card doll-mini"><img src="./assets/fluffy-dream-studio.webp" alt="" width="800" height="500"><span>今天也要可可爱爱</span></div>
-        <div class="art-sticker"><span>BUILT WITH AI</span><strong>好玩<br>就现在</strong><span>MADE FOR YOU</span></div>
-        <span class="hand-note">a little wonder, every day <svg viewBox="0 0 66 37"><path d="M2 2Q2 29 56 28m-13-9 14 9-13 7"/></svg></span>
-      </div>
-    </section>
-
-    <section id="apps" class="apps-section wrap" aria-labelledby="apps-title">
-      <div class="section-heading"><div><div class="section-kicker">THE COLLECTION</div><h2 id="apps-title">今天，想玩点什么<span class="question-mark">？</span></h2></div><p>每一个入口，都是一个新发现。</p></div>
-      <div class="filter-bar" data-interactive hidden>
-        <div class="filters" role="group" aria-label="按应用分类筛选"><!-- FILTERS --></div>
-        <div class="search-box"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><label class="sr-only" for="search">搜索应用名称或玩法</label><input id="search" type="search" placeholder="搜索名称、玩法…" autocomplete="off"><button id="clear-search" type="button" aria-label="清空搜索" hidden>×</button></div>
-      </div>
-      <div class="results-line"><p id="results-count" aria-live="polite" aria-atomic="true">{{APP_COUNT}} 个小世界，等你发现</p><span><i></i>打开卡片即可体验</span></div>
-      <div id="app-grid" class="app-grid"><!-- APP_CARDS --></div>
-      <div id="empty-state" class="empty-state" hidden><span aria-hidden="true">⌕</span><h3>这个小世界，还没被发现</h3><p>换个关键词，或看看全部应用。</p><button id="reset-filters" class="button button-primary" type="button">查看全部应用</button></div>
-    </section>
-
-    <section id="projects" class="projects-section wrap" aria-labelledby="projects-title">
-      <div class="projects-heading"><div><span class="section-kicker">BEHIND THE SCENES</span><h2 id="projects-title">还有一些，正在探索</h2></div><p>从源码开始，看看想法的另一面。</p></div>
-      <div class="project-links">
-        <a href="https://github.com/ai8458/etf-research-agent" target="_blank" rel="noopener noreferrer" class="project-link"><span class="project-icon" aria-hidden="true">▥</span><div><h3>ETF Research Agent</h3><p>ETF 数据与组合回测研究</p></div><span class="project-status">源码项目</span><span class="project-arrow" aria-hidden="true">↗</span></a>
-        <a href="https://github.com/ai8458/word-by-word" target="_blank" rel="noopener noreferrer" class="project-link"><span class="project-icon word-icon" aria-hidden="true">Aa</span><div><h3>Word by Word</h3><p>在 GitHub 探索这个项目</p></div><span class="project-status">源码项目</span><span class="project-arrow" aria-hidden="true">↗</span></a>
-      </div>
-    </section>
-
-    <section id="about" class="about-section wrap" aria-labelledby="about-title">
-      <span class="about-flower" aria-hidden="true">✳</span><div><span class="section-kicker">A LITTLE ABOUT THIS PLACE</span><h2 id="about-title">小想法，也值得被做出来。</h2><p>这里是 AI8458 的个人作品集：用 AI 辅助创作，把好奇心变成可以体验的作品。<br class="desktop-break">没有复杂的开始方式，点进去，玩一会儿就好。</p></div><a href="https://github.com/ai8458/ai8458.github.io" target="_blank" rel="noopener noreferrer" class="about-link">看看它是怎么做的 <span aria-hidden="true">↗</span></a>
-    </section>
+      <div class="filter-bar"><div class="filters" role="group" aria-label="分类筛选"><!-- FILTERS --></div><span id="results-count" role="status" aria-live="polite">{{ITEM_COUNT}} 项</span></div>
+    </div>
+    <div id="app-list"><!-- APP_GROUPS --></div>
+    <div id="empty-state" hidden><p>没有找到匹配的项目。</p><button id="reset-filters" type="button">查看全部</button></div>
+    <footer><a href="https://github.com/ai8458/ai8458.github.io">目录源码</a></footer>
   </main>
-
-  <footer class="site-footer wrap"><a class="footer-brand" href="./"><img src="./assets/favicon.svg" width="25" height="25" alt="">灵感游乐场</a><p>Made with curiosity & a little help from AI.</p><a href="#top" aria-label="回到页首">回到顶部 <span aria-hidden="true">↑</span></a></footer>
 </body>
 </html>
