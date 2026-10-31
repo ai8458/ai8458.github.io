@@ -37,6 +37,15 @@
       "url": "https://ai8458.github.io/iron-dune/"
     },
     {
+      "id": "tank-evolution",
+      "name": "坦克大战进化记录",
+      "english": "Battle City: From Rookie to 15 Stages",
+      "category": "create",
+      "description": "从最初乱跑到连续通过十五关，2 分 56 秒实战成长短片。",
+      "keywords": "坦克大战 视频 自动游戏 十五关 AI 调教 成长 配乐",
+      "url": "https://ai8458.github.io/tank-evolution/"
+    },
+    {
       "id": "fluffy-dream-studio",
       "name": "绒绒造梦屋",
       "english": "Fluffy Dream Studio",
